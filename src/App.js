@@ -5,7 +5,7 @@ import { useState,useEffect } from 'react';
 function App() {
   const [msg,setMsg]=useState([]);
   useEffect(()=>{
-    fetch("http://13.233.68.220:5000/data")
+    fetch("http://65.0.45.232:5000/data")
     .then((response) => response.json())
       .then((data)=>{
         console.log(data)
